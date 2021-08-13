@@ -5,7 +5,6 @@ A lottlery app for blockchain
 
 Update the hardhat.config.js with your api key from ALCHEMY 
 
-
 ```bash
 // Go to https://www.alchemyapi.io, sign up, create
 // a new App in its dashboard, and replace "KEY" with its key
