@@ -1,0 +1,30 @@
+{
+  "name": "lotterycontract",
+  "version": "1.0.0",
+  "description": "Lottery contract",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx hardhat test",
+    "localNode": "npx hardhat node",
+    "deploy:dev": "npx hardhat test && npx hardhat run --network localhost scripts/lottery.js",
+    "deploy:rinkeby": "npx hardhat test && npx hardhat run --network rinkeby scripts/lottery.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DuanTranHuy/LotteryContract.git"
+  },
+  "author": "Duan Tran Huy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DuanTranHuy/LotteryContract/issues"
+  },
+  "homepage": "https://github.com/DuanTranHuy/LotteryContract#readme",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.2",
+    "@nomiclabs/hardhat-waffle": "^2.0.1",
+    "chai": "^4.3.4",
+    "ethereum-waffle": "^3.4.0",
+    "ethers": "^5.4.4",
+    "hardhat": "^2.6.0"
+  }
+}
